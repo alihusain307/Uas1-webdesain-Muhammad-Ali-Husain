@@ -206,3 +206,28 @@ padding-top: 100px;
     padding: 0px 0px 30px 60px;
 
 }
+.konten-bot {
+    padding-top: 75px;
+    width: 100%;
+    height: 200px;
+    background-color:#402f47;
+    text-align: center;
+}
+.konten-bot h2 {
+    color: #F5128D;
+}
+.konten-bot p {
+    color: white;
+}
+.search a {
+    height: 15px;
+    background-color:#F5128D;
+    color:white;
+    text-decoration: none;
+}
+.footer   {
+            background-color:#F5128D ;
+            min-height: 50px;
+            padding: 20px;
+            text-align: center;
+        }
