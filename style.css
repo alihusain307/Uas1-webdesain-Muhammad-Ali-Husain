@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    font-family: century gothic;
+    background: white;
+}
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+.container {
+    width: 900px;
+    height: 0 auto;
+    margin: 10px 200px 0px 200px;
+
+}
+#topnav{
+    width:100%;
+    position: relative;
+    height: auto;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+    display: inline;
+    transition: 0.3s;
+
+}
+
+a:hover {
+    color: #F5128D;
+    transition:0.3s;
+}
+
+
+nav {
+    height: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background:black;
+    position: absolute;
+    opacity:0.5;
+}
+
+
+/* Bagian Title */
+
+.title {
+    display: inline-block;
+    float: left;
+    line-height: 50px;
+    color: white;
+}
+.cozy {
+    color:#F5128D;
+}
+.regency {
+
+}
+
+
+/* Bagian Menu Box */
+
+.tblmenubox {
+    display: inline-block;
+    float: right;
+    line-height: 50px;
+}
+
+.tabelmenu {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 50%;
+}
+
+.tblmenubox {
+    display: none;
+    visibility: hidden;
+}
+
+
+/* Bagian Menu Navigasi */
+
+.menu {
+    display: inline-block;
+    float: right;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    padding: 0 20px;
+    display: block;
+    line-height: 50px;
+}
+
+.menu li:hover {
+    background-color: none;
+}
+
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+.menu ul li ul {
+    display: none;
+}
+.menu li:hover ul {
+    display: block;
+    position: absolute;
+    top:0;
+}
+.menu ul li ul li{
+    width: 250px;
+    background-color: rgb(54, 54, 54);
+}
+#header{
+    width: 100%;
+    background-image: url(atas.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 600px;
+    padding: 150px 0px 0px 5px;
+    margin:0 auto;
+
+}
+.jumbotron  {
+
+    width: 100%;
+    box-sizing: border-box;
+    text-align:center;
+    color: white;
+    position: relative;
+}
+
+
+.jumbotron h1{
+    position: relative;
+padding-top: 100px;
+    color:#F5128D; 
+    padding:;
+    text-align: center;
+} 
+.jumbotron p {
+    margin-top: 0px;
+    color: white;
+    font-size:10pt;
+    position: relative;
+    text-align: center;
+
+}
+.overlay{
+    top:0;
+    left: 0;
+    margin-top: 0;
+    width: 100%;
+    padding: 150px 0px 0px 5px;
+    height: 400px;
+    background-color: black;
+    background-size: cover;
+    opacity:0.3;
+    position: absolute;
+}
+.konten {
+    width: 100%;
+    background-color: whitesmoke;
+    display: inline-block;
+}
+.konten img {
+    float: left;
+    width: 400px;
+    height: auto;
+ padding: 125px 0px 80px 40px;
+}
+.konten h2 {
+    float: left;
+    font-family: century gothic;
+    font-size: 20pt;
+    color: #402f47;
+    padding: 150px 0px 30px 60px;
+}
+.konten p {
+    float: left;
+    font-family: century gothic;
+    font-size: 10pt;
+    color: black;
+    padding: 0px 0px 30px 60px;
+}
+
+.konten a b {
+    color: #F5128D;
+    text-decoration: underline;
+    float: left;
+    padding: 0px 0px 30px 60px;
+
+}
